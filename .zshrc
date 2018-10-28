@@ -6,7 +6,7 @@ compinit -i
 source ~/.zsh/plugins.sh
 source ~/.zsh/config.zsh
 source ~/.zsh/completion.zsh
-source ~/.config/docker/.aliases
-source ~/.config/system/.aliases
+source ~/.zsh/docker.aliases
+source ~/.zsh/system.aliases
 
 
