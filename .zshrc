@@ -4,9 +4,9 @@ compinit -i
 
 # ~/.zshrc
 source ~/.zsh/plugins.sh
+source ~/.zsh/config.zsh
 source ~/.zsh/completion.zsh
+source ~/.config/docker/.aliases
+source ~/.config/system/.aliases
 
-# resovle Home End key notworking
-bindkey '^[[H' beginning-of-line
-bindkey '^[[F' end-of-line
 
