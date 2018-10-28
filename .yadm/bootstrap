@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# install antibody if not exists
+if hash antibody 2>/dev/null; then
+    echo "antibody already install"
+else
+    echo "a"
+    #sudo curl -sL git.io/antibody | sh -s
+fi
+
+# init plugin
+antibody bundle < ~/.zsh/plugins.txt > ~/.zsh/plugins.sh
