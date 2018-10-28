@@ -8,5 +8,3 @@ source ~/.zsh/config.zsh
 source ~/.zsh/completion.zsh
 source ~/.zsh/docker.aliases
 source ~/.zsh/system.aliases
-
-
