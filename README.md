@@ -2,7 +2,8 @@
 
 ## Recommended Software
 * fzf
-* exa
-* indicator-keylock
-* vim-plug
-
+* exa (advandce ls)
+* indicator-keylock ( keylock in status bar)
+* vim-plug  ( vim plugin manager)
+* gvim  (copy, paste clipboard in vim)
+* ctag 
