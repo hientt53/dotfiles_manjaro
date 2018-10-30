@@ -4,4 +4,5 @@
 * fzf
 * exa
 * indicator-keylock
+* vim-plug
 
