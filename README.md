@@ -10,3 +10,4 @@
 * gvim  (copy, paste clipboard in vim)
 * ctag 
 * tmux 
+* kitty (terminal support Fire Code font)
