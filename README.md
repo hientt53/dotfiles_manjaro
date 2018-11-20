@@ -9,3 +9,4 @@
 * vim-plug  ( vim plugin manager)
 * gvim  (copy, paste clipboard in vim)
 * ctag 
+* tmux 
