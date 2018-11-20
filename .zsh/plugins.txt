@@ -1,5 +1,6 @@
 # theme
-denysdovhan/spaceship-prompt
+#denysdovhan/spaceship-prompt
+bhilburn/powerlevel9k
 
 # plugin
 zsh-users/zsh-autosuggestions
