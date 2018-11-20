@@ -1,6 +1,7 @@
 # hi
 
 ## Recommended Software
+* yadm ( the easy way to manager dotfile)
 * antibody ( zsh package manager)
 * fzf
 * exa (advandce ls)
