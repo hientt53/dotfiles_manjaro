@@ -9,3 +9,6 @@ so ~/.vim/plugins.vim
 :augroup END
 " end set line number relative auto
 
+" set mapleader
+let mapleader = ","
+

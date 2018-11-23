@@ -8,6 +8,6 @@
 * indicator-keylock ( keylock in status bar)
 * vim-plug  ( vim plugin manager)
 * gvim  (copy, paste clipboard in vim)
-* ctag 
+* ctag  ( Vim tagbar require)
 * tmux 
 * kitty (terminal support Fire Code font)
