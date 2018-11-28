@@ -1,5 +1,3 @@
-so ~/.vim/plugins.vim
-
 " set line number relative auto
 :set number relativenumber
 :augroup numbertoggle
@@ -12,3 +10,4 @@ so ~/.vim/plugins.vim
 " set mapleader
 let mapleader = ","
 
+so ~/.vim/plugins.vim
