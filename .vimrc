@@ -5,7 +5,6 @@
 :  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
 :  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 :augroup END
-" end set line number relative auto
 
 " set mapleader
 let mapleader = ","
