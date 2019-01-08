@@ -11,6 +11,7 @@ Plug '/usr/bin/fzf' 			" fzf for search file	| <ctrl P>
 Plug 'junegunn/fzf.vim' 		" fzf for search file
 Plug 'majutsushi/tagbar'		" Tagbar 		| F8
 Plug 'terryma/vim-multiple-cursors' 	" Multiple cursors
+Plug 'mtdl9/vim-log-highlighting'
 
 " Helpers for unix
 Plug 'tpope/vim-eunuch'
