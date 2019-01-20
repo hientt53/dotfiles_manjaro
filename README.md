@@ -12,4 +12,6 @@
 * ctag  ( Vim tagbar require)
 * tmux 
 * kitty (terminal support Fire Code font)
-* sc-im (open csv)
+* sc-im (open csv
+* rofi (alternative dmenu)
+* zsh
