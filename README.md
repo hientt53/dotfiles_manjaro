@@ -16,3 +16,5 @@
 * rofi (alternative dmenu)
 * zsh
 * nerd-fonts-complete
+* xcape (for remap key)
+* xmodmap (for  remap key)

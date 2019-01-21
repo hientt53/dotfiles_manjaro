@@ -437,3 +437,7 @@ mode "$mode_gaps_outer" {
 
 # execute on startup geoclue use by redshift
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+
+#  load  xcape rempa mod key
+exec --no-startup-id xmodmap ~/.Xmodmap 
+exec --no-startup-id xcape -e "Super_L=Escape"
