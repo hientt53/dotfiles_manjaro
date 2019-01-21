@@ -17,4 +17,4 @@
 * zsh
 * nerd-fonts-complete
 * xcape (for remap key)
-* xmodmap (for  remap key)
+* xorg-xmodmap (for  remap key)
