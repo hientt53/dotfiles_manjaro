@@ -15,3 +15,4 @@
 * sc-im (open csv
 * rofi (alternative dmenu)
 * zsh
+* nerd-fonts-complete
