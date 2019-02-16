@@ -2,6 +2,8 @@
 autoload -Uz compinit
 compinit -i
 export TERM="xterm-256color"
+export EDITOR=/usr/bin/vim # default editor
+export VISUAL=/usr/bin/vim # default editor
 
 # ~/.zshrc
 source ~/.zsh/plugins.sh
