@@ -29,7 +29,7 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -437,7 +437,10 @@ mode "$mode_gaps_outer" {
 
 # execute on startup geoclue use by redshift
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
-
 #  load  xcape rempa mod key
-exec --no-startup-id xmodmap ~/.Xmodmap 
+exec --no-startup-id xmodmap ~/.Xmodmap  
+exec --no-startup-id xcape
 exec --no-startup-id xcape -e "Super_L=Escape"
+# start ibus-daemon
+exec --no-startup-id ibus-daemon --drx
+
