@@ -18,3 +18,10 @@
 * nerd-fonts-complete
 * xcape (for remap key)
 * xorg-xmodmap (for  remap key)
+* ibus-teni
+install powerline fonts:
+sudo pacman -S powerline-fonts-git
+reference font & symbols in .Xdefaults:
+URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=12,xft:Powerlinesymbols
+issue should be resolved upon next run of URXVT
+
