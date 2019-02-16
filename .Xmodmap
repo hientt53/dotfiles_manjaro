@@ -250,3 +250,7 @@ keycode 255 = XF86RFKill NoSymbol XF86RFKill
 clear Lock
 keycode 66 = Hyper_L
 add mod4 = Hyper_L
+
+remove Control = Control_R
+keysym Control_R = Caps_Lock
+add Control = Control_L
