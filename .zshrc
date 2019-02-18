@@ -1,7 +1,7 @@
 # fix errer command not found: compdef when load oh-my-zsh plugin
 autoload -Uz compinit
 compinit -i
-export TERM="xterm-256color"
+#export TERM="xterm-256color"
 export EDITOR=/usr/bin/vim # default editor
 export VISUAL=/usr/bin/vim # default editor
 
