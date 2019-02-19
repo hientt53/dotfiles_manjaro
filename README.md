@@ -19,6 +19,7 @@
 * xcape (for remap key)
 * xorg-xmodmap (for  remap key)
 * ibus-teni
+* autorandr ( quick save and apply xrand )
 install powerline fonts:
 sudo pacman -S powerline-fonts-git
 reference font & symbols in .Xdefaults:
