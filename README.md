@@ -26,3 +26,4 @@ reference font & symbols in .Xdefaults:
 URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=12,xft:Powerlinesymbols
 issue should be resolved upon next run of URXVT
 
+* github.com/antonmedv/red ( terminal log analysis tools )
