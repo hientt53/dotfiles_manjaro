@@ -19,4 +19,7 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 # export go path
 if [[ -d ~/go ]] ; then
     export PATH=$PATH:~/go/bin
+    export GOPATH=~/go
+    export GO111MODULE=on
+    export wforfun=~/go/src/github.com/wforfun
 fi
