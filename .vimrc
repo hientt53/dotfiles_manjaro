@@ -17,11 +17,11 @@ so ~/.vim/plugins.vim
 
 " set indentation
 " global indentation with width = 4
-set shiftwidth=2 softtabstop=2 expandtab
+set shiftwidth=4 softtabstop=4 expandtab
 " indentation width = 8 ( golang )
 autocmd FileType go setlocal shiftwidth=8 softtabstop=8 expandtab
 " indentation width = 2 (yml, yaml, toml)
-autocmd FileType go setlocal shiftwidth=2 softtabstop=2 expandtab
+autocmd FileType yaml setlocal shiftwidth=2 softtabstop=2 expandtab
 
 
 
