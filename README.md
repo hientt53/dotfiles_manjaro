@@ -20,6 +20,7 @@
 * xorg-xmodmap (for  remap key)
 * ibus-teni
 * autorandr ( quick save and apply xrand )
+* zathura ( document viewer )
 install powerline fonts:
 sudo pacman -S powerline-fonts-git
 reference font & symbols in .Xdefaults:
