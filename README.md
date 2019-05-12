@@ -15,11 +15,11 @@
 * rofi (alternative dmenu) #
 * zsh #
 * nerd-fonts-complete #
-* xcape (for remap key)
-* xorg-xmodmap (for  remap key)
-* ibus-teni
-* autorandr ( quick save and apply xrand )
-* zathura ( document viewer )
+* xcape (for remap key) #
+* xorg-xmodmap (for  remap key) #
+* ibus-teni $ source code
+* autorandr ( quick save and apply xrand ) #
+* zathura ( document viewer ) #
 install powerline fonts:
 sudo pacman -S powerline-fonts-git
 reference font & symbols in .Xdefaults:
