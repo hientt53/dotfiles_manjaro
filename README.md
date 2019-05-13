@@ -2,7 +2,7 @@
 
 ## Recommended Software
 * yadm ( the easy way to manager dotfile)
-* antibody ( zsh package manager)
+* antibody ( zsh package manager) ```curl -sL git.io/antibody | sh -s```
 * fzf
 	* AG command ([The silver searcher](https://github.com/ggreer/the_silver_searcher))
 * exa (advandce ls)
