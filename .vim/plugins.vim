@@ -34,7 +34,6 @@ Plug 'lukhio/vim-mapping-conflicts'
 
 " Golang
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-"Plug 'valloric/youcompleteme'
 
 
 call plug#end()
@@ -45,6 +44,5 @@ so ~/.vim/plug-config/nerdtree.vim
 so ~/.vim/plug-config/tagbar.vim
 so ~/.vim/plug-config/nerdcommenter.vim
 so ~/.vim/plug-config/go.vim
-so ~/.vim/plug-config/youcompleteme.vim
 
 
