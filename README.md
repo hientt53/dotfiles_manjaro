@@ -69,4 +69,8 @@ rebuild the initramfs mkinitcpio -p linux
 check if everything works: systemctl hibernate
 
 
+### Bluetooth audio not working
 
+
+* install pulseaudio-bluetooth
+* restart: pulseaudio -k pulseaudio --start

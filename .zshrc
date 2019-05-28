@@ -13,13 +13,11 @@ source ~/.zsh/powerlevel9k.zsh
 source ~/.zsh/docker.aliases
 source ~/.zsh/system.aliases
 
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-
 
 # export go path
 if [[ -d ~/go ]] ; then
     export PATH=$PATH:~/go/bin
     export GOPATH=~/go
-    export GO111MODULE=on
-    export wforfun=~/go/src/github.com/wforfun
+    export GO111MODULE=auto
 fi
+
