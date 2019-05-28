@@ -196,6 +196,7 @@ bindsym $mod+Ctrl+less move workspace to output left
 
 # assign workspace 2 
 assign [class="Code"] $ws2
+assign [class="jetbrains-goland"] $ws2
 # assign workspace 3 
 assign [class="Google-chrome"] $ws3
 assign [class="Google-chrome-unstable"] $ws3
@@ -231,6 +232,7 @@ for_window [class="(?i)System-config-printer.py"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
+for_window [title="XDM 2018"] floating enable sticky enable border normal
 #for_window [class="Skype"] floating enable border normal
 
 # switch to workspace with urgent window automatically
@@ -383,7 +385,7 @@ bindsym $mod+m bar mode toggle
 #############################
 
 # Set inner/outer gaps
-gaps inner 8 
+gaps inner 20 
 gaps outer -2
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
@@ -435,8 +437,6 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
-# execute on startup geoclue use by redshift
-exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 #  load  xcape rempa mod key
 exec --no-startup-id xmodmap ~/.Xmodmap  
 exec --no-startup-id xcape
@@ -445,4 +445,6 @@ exec --no-startup-id xcape -e "Super_L=Escape"
 exec --no-startup-id ibus-daemon --drx
 # start redshift
 exec --no-startup-id redshift -l 10.762622:106.660172
+# start 
+exec --no-startup-id xset b off
 
