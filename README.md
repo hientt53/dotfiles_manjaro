@@ -71,6 +71,11 @@ check if everything works: systemctl hibernate
 
 ### Bluetooth audio not working
 
-
 * install pulseaudio-bluetooth
 * restart: pulseaudio -k pulseaudio --start
+
+### Time incorrect 
+```
+sudo pacman -S ntp
+sudo timedatectl set-ntp true
+```
