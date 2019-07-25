@@ -211,7 +211,7 @@ keycode 217 =
 keycode 218 = Print NoSymbol Print
 keycode 219 =
 keycode 220 = XF86WebCam NoSymbol XF86WebCam
-keycode 221 =
+keycode 221 = XF86AudioPreset NoSymbol XF86AudioPreset
 keycode 222 =
 keycode 223 = XF86Mail NoSymbol XF86Mail
 keycode 224 = XF86Messenger NoSymbol XF86Messenger
@@ -247,10 +247,19 @@ keycode 253 =
 keycode 254 = XF86WWAN NoSymbol XF86WWAN
 keycode 255 = XF86RFKill NoSymbol XF86RFKill
 
+! Custom
+! Caps_Lock as mod4 if hold, as escape if press and let go
+! Add config below to i3 config:  
+! exec --no-startup-id xmodmap ~/.Xmodmap &
+! exec --no-startup-id xcape -e "Hyper_L=Escape"
 clear Lock
 keycode 66 = Hyper_L
 add mod4 = Hyper_L
-
+keycode 135 = Multi_key
+! Right control as Cap_Lock
 remove Control = Control_R
 keysym Control_R = Caps_Lock
 add Control = Control_L
+! Add config below to i3 config:  
+! exec --no-startup-id xmodmap ~/.Xmodmap &
+! exec --no-startup-id xcape -e "Control_R=Control_L"
