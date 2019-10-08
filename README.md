@@ -34,6 +34,14 @@ issue should be resolved upon next run of URXVT
 
 ### Enable Hibernate with swapfile
 
+* Time zone
+```
+# install NTP 
+sudo yay -S ntp
+# enable NTP
+sudo timedatectl set-ntp true
+```
+
 * Create swapfile 
 
 ```bash
