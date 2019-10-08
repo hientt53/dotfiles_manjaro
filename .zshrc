@@ -13,7 +13,10 @@ source ~/.zsh/completion.zsh
 source ~/.zsh/powerlevel9k.zsh
 source ~/.zsh/ibus.zsh
 source ~/.zsh/go.zsh
+source ~/.zsh/php.zsh
 source ~/.zsh/node.zsh
 source ~/.zsh/android.zsh
+source ~/.zsh/terraform.zsh
 source ~/.zsh/docker.aliases
 source ~/.zsh/system.aliases
+
