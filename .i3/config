@@ -6,8 +6,7 @@ set $mod Mod4
 set $mod1 Mod1
 
 # set default desktop layout (default is tiling)
-# workspace_layout tabbed <stacking|tabbed>
-
+# workspace_layout tabbed <stacking|tabbed> 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 new_window pixel 1
 new_float normal
@@ -105,8 +104,8 @@ bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
-bindsym $mod+Ctrl+h split h;exec notify-send 'tile horizontally'
-bindsym $mod+Ctrl+v split v;exec notify-send 'tile vertically'
+bindsym $mod+Ctrl+Shift+h split h;exec notify-send 'tile horizontally'
+bindsym $mod+Ctrl+Shift+v split v;exec notify-send 'tile vertically'
 bindsym $mod+q split toggle
 
 # toggle fullscreen mode for the focused container
@@ -184,8 +183,10 @@ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # move focused workspace between monitors
-bindsym $mod+Ctrl+greater move workspace to output right
-bindsym $mod+Ctrl+less move workspace to output left
+bindsym $mod+Ctrl+h move workspace to output right
+bindsym $mod+Ctrl+l move workspace to output left
+bindsym $mod+Ctrl+j move workspace to output down
+bindsym $mod+Ctrl+k move workspace to output up
 
 # Open applications on specific workspaces
 # assign [class="Thunderbird"] $ws1
@@ -362,7 +363,8 @@ set_from_resource $term_color15    color15
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
 	i3bar_command i3bar -t 
-	status_command i3status
+	status_command i3status 
+	#status_command ~/.bin/pomodoro-i3status.sh
 	position bottom
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
