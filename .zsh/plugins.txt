@@ -30,3 +30,5 @@ robbyrussell/oh-my-zsh path:plugins/supervisor
 robbyrussell/oh-my-zsh path:plugins/ssh-agent
 robbyrussell/oh-my-zsh path:plugins/tmux
 robbyrussell/oh-my-zsh path:plugins/ufw
+robbyrussell/oh-my-zsh path:plugins/terraform
+robbyrussell/oh-my-zsh path:plugins/aws

@@ -89,3 +89,9 @@ check if everything works: systemctl hibernate
 
 * install pulseaudio-bluetooth
 * restart: pulseaudio -k pulseaudio --start
+
+### Time incorrect 
+```
+sudo pacman -S ntp
+sudo timedatectl set-ntp true
+```
