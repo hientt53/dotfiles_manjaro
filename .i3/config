@@ -297,7 +297,7 @@ bindsym $mod+9 exec --no-startup-id blurlock
 ###########################################################
 ########### CUSTOM BIND ###################################
 ###########################################################
-bindsym Pause exec --no-startup-id xmodmap ~/.Xmodmap &  xset b off & xcape -e Hyper_L=Escape & xcape -e Control_R=Control_L
+bindsym $mod+Insert exec --no-startup-id xmodmap ~/.Xmodmap &  xset b off & xcape -e Hyper_L=Escape & xcape -e Control_R=Control_L
 
 
 # Autostart applications
