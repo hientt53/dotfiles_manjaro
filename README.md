@@ -76,6 +76,14 @@ HOOKS="base udev resume autodetect ...
 rebuild the initramfs mkinitcpio -p linux
 check if everything works: systemctl hibernate
 
+### Audio not wokring
+```
+    yay -S  pulseaudio
+    yay -S  pavucontrol
+    # enable pulseaudio 
+    systemctl --user start pulseaudio.service
+
+```
 
 ### Bluetooth audio not working
 
