@@ -9,6 +9,7 @@ export PATH=$PATH:$HOME/.local/bin
 # ~/.zshrc
 source ~/.zsh/plugins.sh
 source ~/.zsh/config.zsh
+source ~/.zsh/function.zsh
 source ~/.zsh/completion.zsh
 source ~/.zsh/powerlevel9k.zsh
 source ~/.zsh/ibus.zsh
@@ -19,4 +20,5 @@ source ~/.zsh/android.zsh
 source ~/.zsh/terraform.zsh
 source ~/.zsh/docker.aliases
 source ~/.zsh/system.aliases
+
 
