@@ -12,14 +12,6 @@ function prompt()
     fi
 }
 
-
-# Open a new window in this term's cwd
-alias nw="urxvt256c-mlc"
-nwZle() { zle push-line; BUFFER="nw"; zle accept-line; }
-zle -N nwZle
-# CTRL+n
-bindkey '^n' nwZle
-
 # gitignore generate function
 function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
 
