@@ -10,7 +10,8 @@
 * gvim  (copy, paste clipboard in vim) #
 * ctags  ( Vim tagbar require) #
 * tmux #
-* kitty (terminal support Fire Code font) #
+* terminte (terminal support Fire Code font) #
+* xcwd (print current directory - support open new termianl from here)
 * sc-im (open csv #
 * rofi (alternative dmenu) #
 * zsh #
