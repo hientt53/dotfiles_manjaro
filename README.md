@@ -98,6 +98,9 @@ sudo timedatectl set-ntp true
 ```
 
 ### Telegram ibus not wokring
+
+~/.local/share/applications/telegramdesktop.desktop
+
 ```
 [Desktop Entry]
 Version=1.0
