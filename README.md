@@ -96,3 +96,22 @@ check if everything works: systemctl hibernate
 sudo pacman -S ntp
 sudo timedatectl set-ntp true
 ```
+
+### Telegram ibus not wokring
+```
+[Desktop Entry]
+Version=1.0
+Name=Telegram Desktop
+Comment=Official desktop application for the Telegram messaging service
+TryExec=/usr/bin/telegram-desktop
+Exec=env QT_IM_MODULE=ibus /usr/bin/telegram-desktop -- %u
+Icon=telegram
+Terminal=false
+StartupWMClass=TelegramDesktop
+Type=Application
+Categories=Network;InstantMessaging;Qt;
+MimeType=x-scheme-handler/tg;
+Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;
+X-GNOME-UsesNotifications=true
+X-Desktop-File-Install-Version=0.24
+```
