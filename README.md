@@ -28,6 +28,7 @@ URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=12,xft:Powerlinesymb
 issue should be resolved upon next run of URXVT
 
 * github.com/antonmedv/red ( terminal log analysis tools )
+* xflux-gui-git #
 
 ## Bug 
 
