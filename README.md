@@ -118,3 +118,21 @@ Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;
 X-GNOME-UsesNotifications=true
 X-Desktop-File-Install-Version=0.24
 ```
+
+
+### Ibus teni
+
+For Arch Linux, edit /etc/pacman.conf and add the following (note that the order of repositories in pacman.conf is important, since pacman always downloads the first found package):
+
+```
+[home_vietnamese_Arch]
+SigLevel = Never
+Server = https://download.opensuse.org/repositories/home:/vietnamese/Arch/$arch
+```
+
+Then run the following as root
+
+```
+pacman -Syu
+pacman -S home_vietnamese_Arch/ibus-teni
+```
