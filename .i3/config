@@ -323,8 +323,6 @@ exec --no-startup-id xcape -e Hyper_L=Escape
 exec --no-startup-id xcape -e Control_R=Control_L
 # start ibus-daemon
 exec --no-startup-id ibus-daemon --drx
-# start redshift
-exec --no-startup-id redshift -l 10.762622:106.660172
 # start 
 exec --no-startup-id xset b off
 
