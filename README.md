@@ -140,3 +140,6 @@ pacman -S home_vietnamese_Arch/ibus-teni
 From build:
 http://widehat.opensuse.org/repositories/home:/vietnamese/Arch/x86_64/ibus-teni-1.5.2-1-any.pkg.tar.xz
 sudo pacman -U ibus-teni-<version>.tar.gz
+
+### Change default browser 
+https://www.rockyourcode.com/change-the-default-browser-in-i3-manjaro-linux/
