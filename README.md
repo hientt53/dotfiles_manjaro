@@ -3,7 +3,7 @@
 ## Recommended Software
 * yadm ( the easy way to manager dotfile) ```yay -Syu yadm-git```
 * antibody ( zsh package manager) ```curl -sL git.io/antibody | sh -s```
-* fzf
+* fzf `yay -S fzf`
 * AG command ([The silver searcher](https://github.com/ggreer/the_silver_searcher))
 * exa (advandce ls) #
 * vim-plug  ( vim plugin manager) #
