@@ -13,13 +13,24 @@
 * termite (terminal support Fire Code font) `yay -S termite`
 * xcwd (print current directory - support open new termianl from here) `yay -S xcwd-git
 * sc-im (open csv) `yay -S sc-im`
-* rofi (alternative dmenu) # 
-* zsh #
+* rofi (alternative dmenu) `yay -S rofi`
+* zsh `yay -S zsh`
 * nerd-fonts-complete #
-* xcape (for remap key) #
-* xorg-xmodmap (for  remap key) #
-* ibus-teni $ source code
-* autorandr ( quick save and apply xrand ) #
+* xcape (for remap key) `yay -S xcape`
+* xorg-xmodmap (for  remap key) `yay -S xorg-xmodmap`
+* ibus-teni 
+    For Arch Linux, edit /etc/pacman.conf and add the following (note that the order of repositories in pacman.conf is important, since pacman always downloads the first found package):
+    ```
+    [home_vietnamese_Arch]
+    SigLevel = Never
+    Server = https://download.opensuse.org/repositories/home:/vietnamese/Arch/$arch
+    ```
+    Then run the following as root
+    ```
+    pacman -Syu
+    pacman -S home_vietnamese_Arch/ibus-teni
+    ```
+* autorandr ( quick save and apply xrand ) `yay -S autorandr`
 * zathura ( document viewer ) #
 install powerline fonts:
 sudo pacman -S powerline-fonts-git
@@ -28,7 +39,7 @@ URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=12,xft:Powerlinesymb
 issue should be resolved upon next run of URXVT
 
 * github.com/antonmedv/red ( terminal log analysis tools )
-* xflux-gui-git #
+* xflux-gui-git `yay -S xflux-gui-git`
 
 ## Bug 
 
@@ -81,7 +92,7 @@ check if everything works: systemctl hibernate
 ### Audio not wokring
 ```
     yay -S  pulseaudio
-    yay -S  pavucontrolyay -Syu yadm-git
+    yay -S  pavucontrol
     # enable pulseaudio 
     systemctl --user start pulseaudio.service
 
@@ -89,8 +100,8 @@ check if everything works: systemctl hibernate
 
 ### Bluetooth audio not working
 
-* install pulseaudio-bluetooth
-* restart: pulseaudio -k pulseaudio --start
+* install pulseaudio-bluetooth `yay -S pulseaudio-bluetooth`
+* restart:`pulseaudio -k pulseaudio --start`
 
 ### Time incorrect 
 ```
