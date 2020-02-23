@@ -18,18 +18,6 @@
 * nerd-fonts-complete #
 * xcape (for remap key) `yay -S xcape`
 * xorg-xmodmap (for  remap key) `yay -S xorg-xmodmap`
-* ibus-teni 
-    For Arch Linux, edit /etc/pacman.conf and add the following (note that the order of repositories in pacman.conf is important, since pacman always downloads the first found package):
-    ```
-    [home_vietnamese_Arch]
-    SigLevel = Never
-    Server = https://download.opensuse.org/repositories/home:/vietnamese/Arch/$arch
-    ```
-    Then run the following as root
-    ```
-    pacman -Syu
-    pacman -S home_vietnamese_Arch/ibus-teni
-    ```
 * autorandr ( quick save and apply xrand ) `yay -S autorandr`
 * zathura ( document viewer ) #
 install powerline fonts:
@@ -148,3 +136,7 @@ Then run the following as root
 pacman -Syu
 pacman -S home_vietnamese_Arch/ibus-teni
 ```
+
+From build:
+http://widehat.opensuse.org/repositories/home:/vietnamese/Arch/x86_64/ibus-teni-1.5.2-1-any.pkg.tar.xz
+sudo pacman -U ibus-teni-<version>.tar.gz
