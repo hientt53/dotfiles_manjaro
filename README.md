@@ -1,7 +1,7 @@
 # hi
 
 ## Recommended Software
-* yadm ( the easy way to manager dotfile)
+* yadm ( the easy way to manager dotfile) ```yay -Syu yadm-git```
 * antibody ( zsh package manager) ```curl -sL git.io/antibody | sh -s```
 * fzf
 * AG command ([The silver searcher](https://github.com/ggreer/the_silver_searcher))
@@ -81,7 +81,7 @@ check if everything works: systemctl hibernate
 ### Audio not wokring
 ```
     yay -S  pulseaudio
-    yay -S  pavucontrol
+    yay -S  pavucontrolyay -Syu yadm-git
     # enable pulseaudio 
     systemctl --user start pulseaudio.service
 
