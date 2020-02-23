@@ -4,16 +4,16 @@
 * yadm ( the easy way to manager dotfile) ```yay -Syu yadm-git```
 * antibody ( zsh package manager) ```curl -sL git.io/antibody | sh -s```
 * fzf `yay -S fzf`
-* AG command ([The silver searcher](https://github.com/ggreer/the_silver_searcher))
-* exa (advandce ls) #
-* vim-plug  ( vim plugin manager) #
-* gvim  (copy, paste clipboard in vim) #
-* ctags  ( Vim tagbar require) #
-* tmux #
-* terminte (terminal support Fire Code font) #
-* xcwd (print current directory - support open new termianl from here)
-* sc-im (open csv #
-* rofi (alternative dmenu) #
+* AG command ([The silver searcher](https://github.com/ggreer/the_silver_searcher)) `yay -S the_silver_searcher`
+* exa (advandce ls) `yay -S exa`
+* vim-plug  ( vim plugin manager) `yay -S vim-plug`
+* gvim  (copy, paste clipboard in vim) `yay -S gvim`
+* ctags  ( Vim tagbar require) `yay -S ctags`
+* tmux `yay -S tmux`
+* termite (terminal support Fire Code font) `yay -S termite`
+* xcwd (print current directory - support open new termianl from here) `yay -S xcwd-git
+* sc-im (open csv) `yay -S sc-im`
+* rofi (alternative dmenu) # 
 * zsh #
 * nerd-fonts-complete #
 * xcape (for remap key) #
