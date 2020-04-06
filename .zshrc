@@ -21,4 +21,6 @@ source ~/.zsh/terraform.zsh
 source ~/.zsh/docker.aliases
 source ~/.zsh/system.aliases
 
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh 
 
