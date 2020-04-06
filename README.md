@@ -143,3 +143,5 @@ sudo pacman -U ibus-teni-<version>.tar.gz
 
 ### Change default browser 
 https://www.rockyourcode.com/change-the-default-browser-in-i3-manjaro-linux/
+
+Need logout and login for apply change
