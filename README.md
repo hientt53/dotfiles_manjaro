@@ -145,3 +145,18 @@ sudo pacman -U ibus-teni-<version>.tar.gz
 https://www.rockyourcode.com/change-the-default-browser-in-i3-manjaro-linux/
 
 Need logout and login for apply change
+
+### TUI app
+https://github.com/rothgar/awesome-tuis
+
+Love: 
+https://github.com/haskellcamargo/sclack
+https://github.com/mps-youtube/mps-youtube
+https://github.com/Rigellute/spotify-tui
+
+### VPN 
+https://github.com/corrad1nho/qomui
+https://github.com/maple3142/cf-warp
+
+### i3block
+otf-font-awesome 
