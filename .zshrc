@@ -18,6 +18,7 @@ source ~/.zsh/plugins.sh
 source ~/.zsh/config.zsh
 source ~/.zsh/function.zsh
 source ~/.zsh/completion.zsh
+[[ ! -f ~/.zsh/.p10k.zsh ]] || source ~/.zsh/.p10k.zsh
 #source ~/.zsh/powerlevel9k.zsh
 source ~/.zsh/ibus.zsh
 source ~/.zsh/go.zsh
@@ -31,5 +32,3 @@ source ~/.zsh/system.aliases
 source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh 
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.zsh/.p10k.zsh ]] || source ~/.zsh/.p10k.zsh
