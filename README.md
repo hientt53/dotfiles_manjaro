@@ -160,3 +160,7 @@ https://github.com/maple3142/cf-warp
 
 ### i3block
 otf-font-awesome 
+
+## Fix phpstorm not auto focus editor
+
+add custom property `suppress.focus.stealing=false` and reload i3
