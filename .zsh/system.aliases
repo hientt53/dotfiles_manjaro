@@ -43,3 +43,5 @@ alias ls="command ls ${colorflag}"
 # User  exa for advandce list
 alias la="exa"
 
+
+alias ssh="TERM=xterm-256color ssh"
