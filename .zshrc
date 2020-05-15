@@ -4,13 +4,13 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
 # fix errer command not found: compdef when load oh-my-zsh plugin
 autoload -Uz compinit
 compinit -i
 #export TERM="xterm-256color"
 export EDITOR=/usr/bin/vim # default editor
 export VISUAL=/usr/bin/vim # default editor
+export BROWSER=/usr/bin/google-chrome-stable
 export PATH=$PATH:$HOME/.local/bin
 
 # ~/.zshrc
