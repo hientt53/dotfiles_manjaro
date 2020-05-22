@@ -14,4 +14,5 @@ yay -S antibody \
 	xcape \
 	xorg-xmodmap \
 	autorandr \
-	xflux-gui-git
+	xflux-gui-git \
+        autotiling

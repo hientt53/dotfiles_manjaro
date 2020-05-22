@@ -25,6 +25,7 @@ sudo pacman -S powerline-fonts-git
 reference font & symbols in .Xdefaults:
 URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=12,xft:Powerlinesymbols
 issue should be resolved upon next run of URXVT
+* autotiling `yay -S autotiling` 
 
 * github.com/antonmedv/red ( terminal log analysis tools )
 * xflux-gui-git `yay -S xflux-gui-git`

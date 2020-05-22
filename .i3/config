@@ -322,9 +322,11 @@ exec --no-startup-id xcape
 exec --no-startup-id xcape -e Hyper_L=Escape
 exec --no-startup-id xcape -e Control_R=Control_L
 # start ibus-daemon
-exec --no-startup-id ibus-daemon --drx
+#exec --no-startup-id ibus-daemon --drx
 # start 
 exec --no-startup-id xset b off
+# start autotiling
+exec_always --no-startup-id autotiling
 
 
 
