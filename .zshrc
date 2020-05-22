@@ -19,7 +19,6 @@ source ~/.zsh/config.zsh
 source ~/.zsh/function.zsh
 source ~/.zsh/completion.zsh
 [[ ! -f ~/.zsh/.p10k.zsh ]] || source ~/.zsh/.p10k.zsh
-#source ~/.zsh/powerlevel9k.zsh
 source ~/.zsh/ibus.zsh
 source ~/.zsh/go.zsh
 source ~/.zsh/php.zsh
