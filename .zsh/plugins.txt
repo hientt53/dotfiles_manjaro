@@ -1,13 +1,12 @@
 # theme
 #denysdovhan/spaceship-prompt
-#bhilburn/powerlevel9k
 romkatv/powerlevel10k
 
 # plugin
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-history-substring-search
 zsh-users/zsh-completions
-#marzocchi/zsh-notify
+marzocchi/zsh-notify
 zsh-users/zsh-syntax-highlighting
 
 # plugins sugget
@@ -20,11 +19,10 @@ robbyrussell/oh-my-zsh path:plugins/docker
 robbyrussell/oh-my-zsh path:plugins/fzf
 robbyrussell/oh-my-zsh path:plugins/git-flow
 robbyrussell/oh-my-zsh path:plugins/git
-robbyrussell/oh-my-zsh path:plugins/go
 robbyrussell/oh-my-zsh path:plugins/golang
 robbyrussell/oh-my-zsh path:plugins/helm
 robbyrussell/oh-my-zsh path:plugins/kops
-#robbyrussell/oh-my-zsh path:plugins/kubectl
+robbyrussell/oh-my-zsh path:plugins/kubectl
 robbyrussell/oh-my-zsh path:plugins/lol
 robbyrussell/oh-my-zsh path:plugins/man
 robbyrussell/oh-my-zsh path:plugins/supervisor
