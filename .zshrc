@@ -14,6 +14,10 @@ export BROWSER=/usr/bin/google-chrome-stable
 export PATH=$PATH:$HOME/.local/bin
 
 # ~/.zshrc
+ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
+for file in $ZSH/lib/*.zsh; do
+    source "$file"
+done
 source ~/.zsh/plugins.sh
 source ~/.zsh/config.zsh
 source ~/.zsh/function.zsh
