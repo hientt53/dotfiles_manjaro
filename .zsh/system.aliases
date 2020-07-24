@@ -46,6 +46,6 @@ alias la="exa"
 
 alias ssh="TERM=xterm-256color ssh"
 
-alias trello="google-chrome-stable --profile=trello --app=https://trello.com &"
+alias trello="google-chrome-stable --profile-directory='Profile 2' --app=https://trello.com &" 
 
 alias ibuss="ibus-daemon &"
