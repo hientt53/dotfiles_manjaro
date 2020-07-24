@@ -29,6 +29,7 @@ issue should be resolved upon next run of URXVT
 
 * github.com/antonmedv/red ( terminal log analysis tools )
 * xflux-gui-git `yay -S xflux-gui-git`
+* lazzygit `yay -S lazzygit`
 
 ## Bug 
 

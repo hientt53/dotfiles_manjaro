@@ -15,4 +15,5 @@ yay -S antibody \
 	xorg-xmodmap \
 	autorandr \
 	xflux-gui-git \
-        autotiling
+        autotiling \
+        lazzygit
