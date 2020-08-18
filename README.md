@@ -20,6 +20,7 @@
 * xorg-xmodmap (for  remap key) `yay -S xorg-xmodmap`
 * autorandr ( quick save and apply xrand ) `yay -S autorandr`
 * zathura ( document viewer ) #
+* unzip
 install powerline fonts:
 sudo pacman -S powerline-fonts-git
 reference font & symbols in .Xdefaults:
@@ -30,6 +31,7 @@ issue should be resolved upon next run of URXVT
 * github.com/antonmedv/red ( terminal log analysis tools )
 * xflux-gui-git `yay -S xflux-gui-git`
 * lazzygit `yay -S lazzygit`
+* rclone `yay- S rclone`
 
 ## Bug 
 
@@ -146,7 +148,11 @@ sudo pacman -U ibus-teni-<version>.tar.gz
 ### Change default browser 
 https://www.rockyourcode.com/change-the-default-browser-in-i3-manjaro-linux/
 
-Need logout and login for apply change
+Change browser in i3 config (ready)
+Change browser command in profile
+Change Pale moon -> gooogle-chrome.desktop
+Logot and login 
+
 
 ### TUI app
 https://github.com/rothgar/awesome-tuis

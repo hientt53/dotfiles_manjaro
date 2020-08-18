@@ -16,4 +16,6 @@ yay -S antibody \
 	autorandr \
 	xflux-gui-git \
         autotiling \
-        lazzygit
+        lazygit \
+        unzip \
+	rclone
