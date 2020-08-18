@@ -237,7 +237,10 @@ for_window [class="Xfburn"] floating enable
 for_window [title="XDM 2018"] floating enable sticky enable border normal
 for_window [class="java-lang-Thread"] floating enable sticky enable border normal
 for_window [class="crx_amfojhdiedpdnlijjbhjnhokbnohfdfb"] floating enable sticky enable border normal
-#for_window [class="Skype"] floating enable border normal
+## move popup to current window
+for_window [title="Save As"] move container to workspace current
+for_window [title="Open File"] move container to workspace current
+
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
