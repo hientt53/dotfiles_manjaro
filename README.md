@@ -6,8 +6,7 @@
 * fzf `yay -S fzf`
 * AG command ([The silver searcher](https://github.com/ggreer/the_silver_searcher)) `yay -S the_silver_searcher`
 * exa (advandce ls) `yay -S exa`
-* vim-plug  ( vim plugin manager) `yay -S vim-plug`
-* gvim  (copy, paste clipboard in vim) `yay -S gvim`
+* vim-plug  ( vim plugin manager) `yay -S vim-plug` * gvim  (copy, paste clipboard in vim) `yay -S gvim`
 * ctags  ( Vim tagbar require) `yay -S ctags`
 * tmux `yay -S tmux`
 * termite (terminal support Fire Code font) `yay -S termite`
@@ -32,6 +31,8 @@ issue should be resolved upon next run of URXVT
 * xflux-gui-git `yay -S xflux-gui-git`
 * lazzygit `yay -S lazzygit`
 * rclone `yay- S rclone`
+* webcamoid https://webcamoid.github.io/
+* flameshot
 
 ## Bug 
 
