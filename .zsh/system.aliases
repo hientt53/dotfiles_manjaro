@@ -44,7 +44,8 @@ alias ls="command ls ${colorflag}"
 alias la="exa"
 
 
-alias ssh="TERM=xterm-256color ssh"
+alias ssh="TERM=vt100 ssh"
+alias eb="TERM=vt100 eb"
 
 alias trello="google-chrome-stable --profile-directory='Profile 2' --app=https://trello.com &" 
 
