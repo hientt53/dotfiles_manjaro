@@ -5,3 +5,6 @@ laravelClear() {
     php artisan route:clear 
     composer dump-autoload
 }
+
+alias pan="php artisan"
+alias paner="php artisan tinker"
