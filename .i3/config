@@ -464,3 +464,7 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
+##################################
+### Program custome ##############
+##################################
+bindsym $mod+p exec flameshot gui
