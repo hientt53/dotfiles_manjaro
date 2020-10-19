@@ -49,4 +49,4 @@ alias eb="TERM=vt100 eb"
 
 alias trello="google-chrome-stable --profile-directory='Profile 2' --app=https://trello.com &" 
 
-alias ibuss="ibus-daemon &"
+alias ibuss="ibus-daemon -rdx"
