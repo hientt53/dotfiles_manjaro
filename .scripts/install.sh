@@ -18,4 +18,8 @@ yay -S antibody \
         autotiling \
         lazygit \
         unzip \
-	rclone
+	rclone \ 
+        flameshot \
+        qrcp \ 
+        qomui \
+        visual-studio-code-bin

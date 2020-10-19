@@ -33,6 +33,8 @@ issue should be resolved upon next run of URXVT
 * rclone `yay- S rclone`
 * webcamoid https://webcamoid.github.io/
 * flameshot
+* qrcp
+* vscode 
 
 ## Bug 
 
