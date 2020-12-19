@@ -22,4 +22,5 @@ yay -S antibody \
         flameshot \
         qrcp \ 
         qomui \
-        visual-studio-code-bin
+        visual-studio-code-bin \ 
+        glow
