@@ -35,6 +35,7 @@ issue should be resolved upon next run of URXVT
 * flameshot
 * qrcp
 * vscode 
+* glow # read markdown in terminal
 
 ## Bug 
 
