@@ -59,7 +59,7 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec google-chrome-stable
+bindsym $mod+F2 exec brave
 bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec gksu pcmanfm
@@ -237,6 +237,7 @@ for_window [class="Xfburn"] floating enable
 for_window [title="XDM 2018"] floating enable sticky enable border normal
 for_window [class="java-lang-Thread"] floating enable sticky enable border normal
 for_window [class="crx_amfojhdiedpdnlijjbhjnhokbnohfdfb"] floating enable sticky enable border normal
+for_window [class="RAIL"] floating enable
 ## move popup to current window
 for_window [title="Save As"] move container to workspace current
 for_window [title="Open File"] move container to workspace current
@@ -468,3 +469,10 @@ mode "$mode_gaps_outer" {
 ### Program custome ##############
 ##################################
 bindsym $mod+p exec flameshot gui
+
+##################################
+### Hotkey custome ##############
+##################################
+bindsym $mod+o floating enable; resize set 1800 1000; move absolute position center;bar mode hide
+bindsym $mod+Shift+o floating disable; bar mode toggle
+
