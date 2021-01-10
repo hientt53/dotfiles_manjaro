@@ -36,6 +36,10 @@ issue should be resolved upon next run of URXVT
 * qrcp
 * vscode 
 * glow # read markdown in terminal
+* telegram-desktop
+* slack
+* ibus-bamboo
+* qbittorrent
 
 ## Bug 
 
@@ -176,3 +180,15 @@ otf-font-awesome
 ## Fix phpstorm not auto focus editor
 
 add custom property `suppress.focus.stealing=false` and reload i3
+
+### Fingerprint
+
+drive: https://github.com/uunicorn/python-validity
+
+update authentication in/etc/pam.d
+
+```
+#example i3lock
+auth sufficient pam_unix.so try_first_pass likeauth nullok
+auth sufficient pam_fprintd.so
+```
