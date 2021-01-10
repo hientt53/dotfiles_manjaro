@@ -1,6 +1,6 @@
 yay -S antibody \
 	fzf \
-       	the_silver_searcher \
+    the_silver_searcher \
 	exa \
 	vim-plug \
 	gvim \
@@ -15,12 +15,17 @@ yay -S antibody \
 	xorg-xmodmap \
 	autorandr \
 	xflux-gui-git \
-        autotiling \
-        lazygit \
-        unzip \
-	rclone \ 
-        flameshot \
-        qrcp \ 
-        qomui \
-        visual-studio-code-bin \ 
-        glow
+    autotiling \
+    lazygit \
+    unzip \
+	rclone \
+	flameshot \
+    qrcp \
+    qomui \
+    visual-studio-code-bin \
+    glow \
+    telegram-desktop \
+    slack-desktop \
+    ibus-bamboo \
+    gotop \
+    qbittorrent
