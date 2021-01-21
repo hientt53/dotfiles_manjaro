@@ -13,11 +13,7 @@ export VISUAL=/usr/bin/vim # default editor
 export BROWSER=/usr/bin/google-chrome-stable
 export PATH=$PATH:$HOME/.local/bin
 
-# ~/.zshrc
-ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
-for file in $ZSH/lib/*.zsh; do
-    source "$file"
-done
+source ~/.zsh/load_oh_my_zsh_lib.zsh
 source ~/.zsh/plugins.sh
 source ~/.zsh/config.zsh
 source ~/.zsh/function.zsh
