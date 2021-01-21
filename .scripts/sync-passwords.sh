@@ -19,7 +19,7 @@ DRIVE_NAME="hientt53-gdrive"
 # Name and locations of the passwords file
 DB_FILE_NAME="Passwords.kdbx"
 LOCAL_LOCATION="$HOME/Documents"
-REMOTE_LOCATION="Documents"
+REMOTE_LOCATION="/"
 
 # Add cronjob command
 #  (crontab -l; echo "*/20 * * * * $HOME/./scripts/sync-passwords.sh") | crontab - 
